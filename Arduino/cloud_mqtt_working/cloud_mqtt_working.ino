@@ -10,12 +10,12 @@
 
 /*#define wifi_ssid "MiFibra-91D6-24G"
 #define wifi_password "hmJRJTJc"*/
-#define wifi_ssid "MOVISTAR_58EF"
-#define wifi_password "bHo6iFFe4Hu5UkC7foUY"
+#define wifi_ssid "include_ssid"
+#define wifi_password "include_password"
 
-#define mqtt_server "m24.cloudmqtt.com"
-#define mqtt_user "bctxmdfh"
-#define mqtt_password "1iIZyALWwLw8"
+#define mqtt_server "include_server"
+#define mqtt_user "include_mqtt-user"
+#define mqtt_password "include_mqtt-password"
 
 #define humidity_topic "sensor/humidity"
 #define temperature_topic "sensor/temp"
