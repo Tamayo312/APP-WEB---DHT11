@@ -10,11 +10,11 @@ var mqtt = require('mqtt');
 
 // Create a client connection to CloudMQTT for live data
 var options = {
-    port: 15869,
-    host: 'mqtt://m11.cloudmqtt.com',
+    port: mqtt_port,
+    host: 'mqtt_host',
     clientId: 'ClientMQTT' + Math.random().toString(16).substr(2, 8),
-    username: 'bctxmdfh',
-    password: '1iIZyALWwLw8',
+    username: 'mqtt_username',
+    password: 'mqtt_password',
     keepalive: 60,
     reconnectPeriod: 1000,
     protocolId: 'MQIsdp',
