@@ -1,0 +1,18 @@
+{
+  "name": "server-mqtt",
+  "version": "1.0.0",
+  "description": "server DHT11",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo Tamayo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20",
+    "mqtt": "^3.0.0"
+  }
+}
