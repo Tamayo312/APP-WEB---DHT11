@@ -10,11 +10,11 @@ var mqtt = require('mqtt');
 
 // Create a client connection to CloudMQTT for live data
 var options = {
-    port: mqtt_port,
-    host: 'mqtt_host',
+    port: 15869,
+    host: 'mqtt://m11.cloudmqtt.com',
     clientId: 'ClientMQTT' + Math.random().toString(16).substr(2, 8),
-    username: 'mqtt_username',
-    password: 'mqtt_password',
+    username: 'bctxmdfh',
+    password: '1iIZyALWwLw8',
     keepalive: 60,
     reconnectPeriod: 1000,
     protocolId: 'MQIsdp',
@@ -53,8 +53,6 @@ client.on('connect', function() { // When connected
                 humM.date = dm;
                 humM.save((err, humM) => {
                     console.log('Humedad: ' + humM.humedad +  ' guardada');
-                    console.log("DATE: " + humM.date);
-                    
                 })
             }
         });  
