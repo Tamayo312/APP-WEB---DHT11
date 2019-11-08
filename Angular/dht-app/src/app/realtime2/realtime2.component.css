@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+canvas#realtime{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+.card {
+    width: 45%;
+    height: auto;
+    display: block;
+    background-color: #525d6b;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: absolute;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border: none;
+    margin-top: 14%;
+    overflow: hidden;
+    color: #0a0a0a;
+    padding: 1em;
+    padding-left: 50;
+    /* margin-bottom: 50%; */
+    /* padding-bottom: 21em; */
+    margin-left: 50%;
+}
+.card-content {
+ background: #fff;
+ border-top: solid 1px #cdcdcd;
+ padding: 5px 20px;
+}
+.card h3,
+.card p {
+ font-family: 'Roboto', sans-serif;
+}
+.card p {
+ font-weight: 300;
+}
